@@ -1,0 +1,15 @@
+---
+if:
+  scope: racket
+  tab: if
+  desc: if expression
+  content: |+
+    (if (${1:predicate})
+      ${2:consequent}
+      ${3:alternative})
+callproc:
+  scope: racket
+  tab: cc
+  desc: Call some procedure
+  content: |+
+    (${1:name} ${2:argument})
