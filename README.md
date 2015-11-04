@@ -37,17 +37,25 @@ callproc:
 
 **Impotant**: keep `|+` for `content key
 
-To install snippets run  
+To **install** snippets run  
 `ruby snippets.rb install racket-snippets.yml`
 
 its create directory in `Packages/User/racket-snippets` and place there files with snippets
 
 **Important**: works only for osx platform. If you use different platform, you need to set the default path in snippets.rb for your platform.
 
-To remove snippets run  
+To **remove** snippets run  
 `ruby snippets.rb clean racket-snippets.yml`
 
 its remove directory `Packages/User/racket-snippets`
+
+To **serialize** existing directory with snippets run
+
+`ruby snippets.rb serialize racket-snippets.yml racket-snippets`
+
+its gets all files from `Packages/User/racket-snippets` with extension `sublime-snippet` and put them into `racket-snippets.yml` file in current directory
+
+**Important**: works only for osx platform. If you use different platform, you need to set the default path in snippets.rb for your platform.
 
 ## Testing
 
