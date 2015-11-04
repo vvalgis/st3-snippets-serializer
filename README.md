@@ -1,6 +1,6 @@
 # Snippets serializer for Sublime Text 3
 
-Automaicly creates snippets files using snippet discription from yaml file.
+Automatically creates snippets files using snippet description from yaml file.
 
 
 ## Install
@@ -42,7 +42,7 @@ To **install** snippets run
 
 its create directory in `Packages/User/racket-snippets` and place there files with snippets
 
-**Important**: works only for osx platform. If you use different platform, you need to set the default path in snippets.rb for your platform.
+**Important**: works only for osx platform. If you use a different platform, you need to set the default path in snippets.rb for your platform.
 
 To **remove** snippets run  
 `ruby snippets.rb clean racket-snippets.yml`
